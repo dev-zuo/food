@@ -7,7 +7,7 @@ export default {
     nav: [
       { text: '心态', link: '/mood/' },
       { text: '美食', link: '/food/' },
-      { text: 'Github', link: 'https://github.com/zuoxiaobai' }
+      { text: 'Github', link: 'https://github.com/zuoxiaobai/zuo-ex' }
     ],
     sidebar: {
       '/mood/': [
