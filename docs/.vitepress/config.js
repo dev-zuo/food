@@ -26,9 +26,8 @@ export default {
           text: '美食',
           items: [
             // This shows `/guide/index.md` page.
-            { text: 'Index', link: '/food/' }, // /guide/index.md
-            { text: 'One', link: '/guide/one' }, // /guide/one.md
-            { text: 'Two', link: '/guide/two' } // /guide/two.md
+            { text: '菜单食谱', link: '/food/' }, 
+            { text: '做饭日常', link: '/food/daily' }, 
           ]
         }
       ]
