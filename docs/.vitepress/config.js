@@ -5,19 +5,19 @@ export default {
   themeConfig: {
     logo: '/logo.png',
     nav: [
-      { text: '心态', link: '/mood/' },
+      { text: '思考', link: '/think/' },
       { text: '美食', link: '/food/' },
       { text: 'Github', link: 'https://github.com/zuoxiaobai/zuo-ex' }
     ],
     sidebar: {
-      '/mood/': [
+      '/think/': [
         {
-          text: '心态',
+          text: '思考',
           items: [
             // This shows `/guide/index.md` page.
-            { text: 'Index', link: '/mood/' }, // /guide/index.md
-            { text: 'One', link: '/guide/one' }, // /guide/one.md
-            { text: 'Two', link: '/guide/two' } // /guide/two.md
+            { text: '心态', link: '/think/' }, // /guide/index.md
+            { text: '技能', link: '/think/skill' }, // /guide/one.md
+            // { text: 'Two', link: '/guide/two' } // /guide/two.md
           ]
         }
       ],
@@ -28,6 +28,7 @@ export default {
             // This shows `/guide/index.md` page.
             { text: '菜单食谱', link: '/food/' }, 
             { text: '做饭日常', link: '/food/daily' }, 
+            { text: '计划菜单', link: '/food/pending' }, 
           ]
         }
       ]
