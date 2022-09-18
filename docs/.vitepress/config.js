@@ -7,6 +7,7 @@ export default {
     nav: [
       { text: '思考', link: '/think/' },
       { text: '美食', link: '/food/' },
+      { text: '娱乐', link: '/play/' },
       { text: 'Github', link: 'https://github.com/zuoxiaobai/zuo-ex' }
     ],
     sidebar: {
@@ -29,6 +30,18 @@ export default {
             { text: '菜单食谱', link: '/food/' }, 
             { text: '做饭日常', link: '/food/daily' }, 
             { text: '计划菜单', link: '/food/pending' }, 
+          ]
+        }
+      ],
+      '/play/': [
+        {
+          text: '娱乐',
+          items: [
+            // This shows `/guide/index.md` page.
+            { text: '影视', link: '/play/' }, 
+            // { text: '音乐', link: '/play/music' }, 
+            { text: '人物', link: '/play/people' }, 
+            { text: '其他', link: '/play/other' }, 
           ]
         }
       ]

@@ -3,7 +3,14 @@
 ## 关于资本
 
 - [什么是资本？什么是资产？穷人为什么一定要建立资产？](https://baijiahao.baidu.com/s?id=1711706604911985516&wfr=spider&for=pc) 要积累资产，减少不必要的消费
+- [资本论：一部划时代意义的巨著【豆瓣高分9.6】|王德峰重读|（全28讲）](https://www.bilibili.com/video/BV1sS4y1x7Zh)
 - 打工的本质：资本家雇佣你，买你的时间，想要让你帮他创造更大的价值。只要你的产出 > 你的工资就是正向的资本积累
+
+## 关于价值观/思维方式
+
+- [【罗翔】对话央视：如何实现人生的价值？](https://www.bilibili.com/video/BV1Bu41197tj)
+- [“唯有智慧，才能把知识和技能转化为我们的安身立命之道。”](https://www.bilibili.com/video/BV1Eq4y1t7P2)
+- [【Morty】送你一把改变未来的钥匙](https://www.bilibili.com/video/BV1EM4y1G77a)
 
 ## 关于为什么要学习
 
@@ -13,6 +20,7 @@
 ## 关于早起
 
 - [【美女学霸】如何主动早起，玩命学习？被妈妈揍了一顿后，我明白了‘无法早起’不是生理问题，而是心理问题](https://www.bilibili.com/video/BV1Vp4y1x7Mx?spm_id_from=333.999.0.0) 早起的关键在于早睡
+- [让你不敢再熬夜的睡眠真相：用5种伤害把自己作死，无法补救！如何打造黄金睡眠周期？](https://www.bilibili.com/video/BV14q4y167xt)
 
 ## 关于考试、计划完不成
 
@@ -43,6 +51,26 @@
 ## 关于努力
 
 - 你觉得你很努力，但和不努力的人相比，没有太大的差别，为什么？你的努力还没有产生质变，或者你的努力方向是错的，还有可能你只是假装在努力
+
+## 关于自卑
+
+## 关于自律
+
+## 关于心情低落
+
+- [一口气看完《妻子变成小学生》10年前去世的妻子，变成小学生](https://www.bilibili.com/video/BV1LL4y1V7um)
+
+## 关于储蓄
+
+- [我男人有30岁了，我要六万块的彩礼，他还要找亲戚凑钱，我应该怎么看待他这个人？](https://www.bilibili.com/video/BV1Ce4y1Z7SZ)
+- [「三三语七」·7·跟闺女聊聊金钱观](https://www.bilibili.com/video/BV1PF411K7ZA)
+
+## 关于男女关系
+
+- [中小学性教育知识讲座（高中版）（无删减版）](https://www.bilibili.com/video/BV1YK4y1u7xP)
+- [【罗翔说爱情】真正的爱是扶级而上的](https://www.bilibili.com/video/BV1Gv41157q3)
+- [婚前必谈15问，谈不拢别结婚，三观一致的落地【麻辣情医吴迪】](https://www.bilibili.com/video/BV1LY411h7aK)
+- [追了很多 女生才明白的真相](https://www.bilibili.com/video/BV1Su411B71h)
 
 ## 关于要不要和后代一起住
 
