@@ -21,29 +21,32 @@
 
 - [React + Canvas + Ant Design 实现ps工具](https://www.bilibili.com/video/BV1eF411w7xV)
 - [2022年webgl与three.js入门到高薪教程](https://www.bilibili.com/video/BV1Rt4y1775g)
-- [Sorame BI 系统 MVP 版本演示-字节跳动第四届青训营大数据进阶班-提瓦特旅游队](https://www.bilibili.com/video/BV1yD4y1z71S)
+- [Sorame BI 系统 MVP 版本演示-字节跳动第四届青训营大数据进阶班](https://www.bilibili.com/video/BV1yD4y1z71S)
 - [小破站WebRTC最强教学，从原理到实战一对一/一对多实时通话讲解/ffmpeg/webrtc/rtmp/hls/srs/Android/rtsp](https://www.bilibili.com/video/BV1D14y1W7qp)
 - [canvas 性能优化原理](https://www.bilibili.com/video/BV1Dg411D7US)
 - [用vue开发俄罗斯方块小游戏](https://www.bilibili.com/video/BV1Rt4y1E7j1)
 - [（已完结)2022Vue.js3.0核心源码解析-超详细、通俗易懂！](https://www.bilibili.com/video/BV1vG4y1Y7Qc)
 - [KKB-高薪webGL工程师|2022年](https://www.bilibili.com/video/BV1sV4y1s7sm)
 - [JavaScript 游戏开发](https://www.bilibili.com/video/BV1qG4y1v7R9)
-- [C/C++【油管550W粉】【Github项目排名第一】【参办哈佛CS系列课程】【谷歌高级工程师】生肉版本 【请看简介！！！】](https://www.bilibili.com/video/BV1Dv4y1P7wo)
-- [【Udemy排名第一的JavaScript课程】2022最新完整JavaScript课程 从入门到精通 -- 通过项目、挑战和理论掌握JS（中英文字幕）下](https://www.bilibili.com/video/BV15S4y1N7Mu)
-- [12年刷题导师左神！耗时数月打造【LeetCode算法300题】数据结构与算法：基础→进阶→大厂面试全套教程，BATJ一线大厂笔试+面试必问详解！](https://www.bilibili.com/video/BV1y34y1v78b)
-- [《卷王篇》面试官破防了！左神（左程云）呕心沥血打造数据结构与算法基础提升+200道LeetCode真题，手绘图解思路代码讲解！实现完全自学](https://www.bilibili.com/video/BV1YT4y1o727)
-- [外国计算机科学家分享的黑客零基础入门到中级全套渗透课程【全程英文已加字幕，全套200集，持续更新】](https://www.bilibili.com/video/BV11q4y1g7vZ)
-- [一周刷爆LeetCode，算法大神左神（左程云）耗时100天打造算法与数据结构基础到高级全家桶教程，直击BTAJ等一线大厂必问算法面试题真题详解](https://www.bilibili.com/video/BV13g41157hK)
+- [C/C++【Github项目排名第一】【参办哈佛CS系列课程](https://www.bilibili.com/video/BV1Dv4y1P7wo)
+- [【Udemy排名第一的JavaScript课程】2022最新完整JavaScript课程 从入门到精通](https://www.bilibili.com/video/BV15S4y1N7Mu)
+- [外国计算机科学家分享的黑客零基础入门到中级全套渗透课程](https://www.bilibili.com/video/BV11q4y1g7vZ)
 - [程序员面试算法· Dijkstra 算法 — 解决赋权图的单源最短路径问题](https://www.bilibili.com/video/BV1YK4y1X7ha)
 - [b站精选终于有人将cookie，session，token鉴权讲明白了](https://www.bilibili.com/video/BV1A34y1C7qX)
 - [Vue3 + vite + Ts + pinia + 实战 + 源码 +全栈](https://www.bilibili.com/video/BV1dS4y1y7vd)
-- [【粉丝问答】你想了解的硅谷程序员 | 英语学习、技术成长、工作日常](https://www.bilibili.com/video/BV1hS4y157He)
+- [14行代码实现贪吃蛇! 再次刷新记录! 【Cgame】](https://www.bilibili.com/video/BV1QZ4y157rK)
+- [深入理解计算机网络底层原理：网络IO模型丨TCP/IP协议 三次握手与四次挥手](https://www.bilibili.com/video/BV1Gr4y1F7UV)
+- [手写Vue3.0简版](https://www.bilibili.com/video/BV1fy4y1y7sc)
+- [尤雨溪教你写vue 高级vue教程 源码分析 中文字幕翻译完毕](https://www.bilibili.com/video/BV1d4411v7UX)
+- [vue+node.js 0到1实现即时通讯聊天室-socket模块5](https://www.bilibili.com/video/BV1Hi4y1g7E5)
 
 ## 关于健康/身体
 
 - [凯格尔运动，男人更强大，女人更幸福，每天10分钟，坚持半年，你会感谢我](https://www.bilibili.com/video/BV1rQ4y1671f)
 - [每天做30个提肛运动，一个月后，身体会告诉你答案。](https://www.bilibili.com/video/BV183411N7x4)
 - [为什么你去健身，肚腩长的比肌肉还要快？【卓叔】](https://www.bilibili.com/video/BV1wL411t7p7)
+- [口臭根源竟是舌头？刷走多年的老舌苔竟然只需三秒？](https://www.bilibili.com/video/BV1dg411D736)
+- [科学喝水多活十年 !](https://www.bilibili.com/video/BV1rz411q7QX)
 
 ## 交互设计
 
@@ -73,6 +76,7 @@
 
 - [iPad无纸化学习｜三个方法搞定PDF教材资源电子书](https://www.bilibili.com/video/BV1GS4y1Y78j)
 - [来自清华学霸的认可--【英文文献阅读器】](https://www.bilibili.com/video/BV1K5411U7H2)
+- [【实用技巧】知网文献不限量免费下载方法，亲测可用](https://www.bilibili.com/video/BV1rV411h7og)
 
 <!-- - []()
 - []()
