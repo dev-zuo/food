@@ -1,4 +1,4 @@
-# 左小白的经验积累
 
+![menu.png](./docs/public/images/menu.png)
 
-[在线查看](http://ex.zuoguoqing.com/)
+[在线查看](http://ex.zuoguoqing.com/food)
