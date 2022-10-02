@@ -25,12 +25,13 @@
             class="sec-main-item"
           >
             <a
-              v-if="food.name !== '-'"
+              v-if="food.name !== '-' && !food.todo"
               class="smi-title"
               :href="'./daily.html' + food.path"
             >
               {{ food.name }}
             </a>
+            <span v-else-if="food.todo">{{ food.name }}</span>
             <div v-else class="gap"></div>
           </div>
         </div>
@@ -47,6 +48,7 @@ const vegetable = {
   list: [
     { name: "青椒炒青豆", path: "#白菜猪肉炖粉条、青椒炒青豆-22-09-17" },
     { name: "清炒黄瓜", path: "#豆瓣罗非鱼、清炒黄瓜、番茄炒蛋-22-09-03" },
+    { name: "小炒茄子", path: "", todo: true },
     { name: "-", path: "豆制品" },
     { name: "尖椒豆腐皮", path: "#青椒回锅肉、尖椒豆腐皮-22-09-25" },
     { name: "香干炒肉", path: "#香干炒肉、白菜烧豆腐-22-09-18" },
@@ -75,8 +77,10 @@ const greenVegetable = {
     { name: "豆豉鲮鱼油麦菜", path: "#豆豉鲮鱼油麦菜、青椒土豆片-22-09-12" },
     { name: "清炒小白菜", path: "#香煎鸡翅、清炒小白菜-22-09-04" },
     { name: "蒜蓉上海青", path: "#香辣虾尾、蒜蓉上海青-22-10-02" },
-    { name: "", path: "" },
-    { name: "", path: "" },
+    { name: "韭黄炒蛋", path: "", todo: true },
+    { name: "清炒黄芽白菜", path: "", todo: true },
+    { name: "清炒空心菜", path: "", todo: true },
+    { name: "清炒红苋菜", path: "", todo: true },
   ],
 };
 
@@ -86,7 +90,7 @@ const whiteMeat = {
     { name: "大葱炒鸡胸肉", path: "#大葱炒鸡蛋、大葱炒鸡胸肉-22-09-11" },
     { name: "香煎鸡翅", path: "#香煎鸡翅、清炒小白菜-22-09-04" },
     { name: "青椒炒鸡腿", path: "#青椒鸡腿、青椒炒鸡蛋-22-08-28" },
-    { name: "", path: "" },
+    { name: "葱姜炒鸡", path: "", todo: true },
     { name: "", path: "" },
     { name: "", path: "" },
   ],
@@ -98,7 +102,7 @@ const redMeat = {
     { name: "青椒回锅肉", path: "#青椒回锅肉、尖椒豆腐皮-22-09-25" },
     { name: "白菜猪肉炖粉条", path: "#白菜猪肉炖粉条、青椒炒青豆-22-09-17" },
     { name: "青椒肉丝", path: "#葱烧豆腐、青椒肉丝-22-09-10" },
-    { name: "", path: "" },
+    { name: "土豆烧排骨", path: "", todo: true },
     { name: "", path: "" },
     { name: "", path: "" },
     { name: "", path: "" },
@@ -112,9 +116,9 @@ const fish = {
     { name: "红烧鲫鱼", path: "#红烧鲫鱼、酱圆白菜-22-10-01" },
     { name: "豆瓣罗非鱼", path: "#豆瓣罗非鱼、清炒黄瓜、番茄炒蛋-22-09-03" },
     { name: "香辣虾尾", path: "#香辣虾尾、蒜蓉上海青-22-10-02" },
-    { name: "", path: "" },
-    { name: "", path: "" },
-    { name: "", path: "" },
+    { name: "白灼虾", path: "", todo: true },
+    { name: "红烧鱼块", path: "", todo: true },
+    { name: "清蒸鲈鱼", path: "", todo: true },
     { name: "", path: "" },
   ],
 };
@@ -153,7 +157,7 @@ const menuList = [
 <style lang="scss" scoped>
 .ex-wrap {
   border: 1px solid #ccc;
-  // border-radius: 8px; 
+  // border-radius: 8px;
   background: #fff;
 }
 .menu-title {
@@ -189,6 +193,10 @@ const menuList = [
   .menu-sec-main {
     .sec-main-item {
       padding-bottom: 5px;
+    }
+    .sec-main-item span {
+      color: #ccc;
+      cursor: not-allowed;
     }
     .gap {
       border-bottom: 1px dashed #ccc;
