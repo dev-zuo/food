@@ -87,8 +87,8 @@ const greenVegetable = {
     { name: "清炒黄芽白菜", path: "#红烧鱼块、黄芽白菜-22-10-05" },
     { name: "清炒空心菜", path: "#土豆烧排骨、清炒空心菜-22-10-22" },
     { name: "清炒红苋菜", path: "#清蒸鲈鱼、清炒红苋菜-22-10-29" },
+    { name: "手撕包菜", path: "#小酥肉、手撕包菜-22-11-06" },
     { name: "蚝油生菜", path: "", todo: true },
-    { name: "手撕包菜", path: "", todo: true },
   ],
 };
 
@@ -120,12 +120,12 @@ const redMeat = {
     { name: "白菜猪肉炖粉条", path: "#白菜猪肉炖粉条、青椒炒青豆-22-09-17" },
     { name: "青椒肉丝", path: "#葱烧豆腐、青椒肉丝-22-09-10" },
     { name: "土豆烧排骨", path: "#土豆烧排骨、清炒空心菜-22-10-22" },
+    { name: "小酥肉", path: "#小酥肉、手撕包菜-22-11-06"},
     { name: "葱爆肉(大葱)", path: "", todo: true },
     { name: "蒜苗回锅肉", path: "", todo: true },
     { name: "蒜苔炒肉", path: "", todo: true },
     { name: "猪脚饭", path: "", todo: true },
     { name: "溜肉段", path: "", todo: true },
-    { name: "小酥肉", path: "", todo: true },
     { name: "葱爆羊肉", path: "", todo: true },
     { name: "酱牛肉", path: "", todo: true },
     { name: "小炒黄牛肉", path: "", todo: true },
