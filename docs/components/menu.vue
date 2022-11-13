@@ -88,6 +88,7 @@ const greenVegetable = {
     { name: "清炒空心菜", path: "#土豆烧排骨、清炒空心菜-22-10-22" },
     { name: "清炒红苋菜", path: "#清蒸鲈鱼、清炒红苋菜-22-10-29" },
     { name: "手撕包菜", path: "#小酥肉、手撕包菜-22-11-06" },
+    { name: "清炒红菜苔", path: "#莲藕排骨汤、清炒红菜苔-22-11-13" },
     { name: "蚝油生菜", path: "", todo: true },
   ],
 };
@@ -159,11 +160,11 @@ const fish = {
 const soup = {
   name: "汤",
   list: [
+    { name: "莲藕排骨汤", path: "#莲藕排骨汤、清炒红菜苔-22-11-13" },
     { name: "鲫鱼豆腐汤", path: "", todo: true },
-    { name: "莲藕排骨汤", path: "", todo: true },
     { name: "-", path: "", desc: "素菜类" },
-    { name: "丝瓜鸡蛋汤", path: "", todo: true },
     { name: "西红柿鸡蛋汤", path: "#香酥藕夹、西红柿鸡蛋汤-22-11-05" },
+    { name: "丝瓜鸡蛋汤", path: "", todo: true },
     { name: "平菇鸡蛋汤", path: "", todo: true },
     { name: "紫菜蛋花汤", path: "", todo: true },
   ],
