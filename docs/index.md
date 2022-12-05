@@ -1,10 +1,9 @@
 ---
-layout: home
-title: 首页
+title: 菜单食谱
 ---
 
 <script setup>
-import Home from './components/Home.vue'
+import Menu from './components/Menu.vue'
 </script>
 
-<Home />
+<Menu />

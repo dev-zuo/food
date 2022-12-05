@@ -27,7 +27,7 @@
             <a
               v-if="food.name !== '-' && !food.todo"
               class="smi-title"
-              :href="'./daily.html' + food.path"
+              :href="'/daily/' + food.path"
             >
               {{ food.name }}
             </a>
@@ -50,28 +50,28 @@ interface CategoryInfo {
 const vegetable = {
   name: "素菜",
   list: [
-    { name: "青椒炒青豆", path: "#白菜猪肉炖粉条、青椒炒青豆-22-09-17" },
-    { name: "清炒黄瓜", path: "#豆瓣罗非鱼、清炒黄瓜、番茄炒蛋-22-09-03" },
-    { name: "鱼香茄子", path: "#白灼虾、鱼香-小炒茄子-22-10-03" },
+    { name: "青椒炒青豆", path: "22-09-17.html" },
+    { name: "清炒黄瓜", path: "22-09-03.html" },
+    { name: "鱼香茄子", path: "22-10-03.html" },
     { name: "清炒冬瓜", path: "", todo: true },
     { name: "-", path: "豆制品" },
-    { name: "尖椒豆腐皮", path: "#青椒回锅肉、尖椒豆腐皮-22-09-25" },
-    { name: "香干炒肉", path: "#香干炒肉、白菜烧豆腐-22-09-18" },
-    { name: "白菜烧豆腐", path: "#香干炒肉、白菜烧豆腐-22-09-18" },
-    { name: "葱烧豆腐", path: "#葱烧豆腐、青椒肉丝-22-09-10" },
-    { name: "家常豆腐(嫩)", path: "#凉拌鸡胸肉、家常豆腐-嫩-22-10-30" },
+    { name: "尖椒豆腐皮", path: "22-09-25.html" },
+    { name: "香干炒肉", path: "22-09-18.html" },
+    { name: "白菜烧豆腐", path: "22-09-18.html" },
+    { name: "葱烧豆腐", path: "22-09-10.html" },
+    { name: "家常豆腐(嫩)", path: "22-10-30.html" },
     { name: "麻婆豆腐", path: "", todo: true },
     { name: "-", path: "", desc: "根茎类" },
-    { name: "青椒土豆片", path: "#豆豉鲮鱼油麦菜、青椒土豆片-22-09-12" },
-    { name: "青椒土豆丝", path: "#青椒土豆丝、丝瓜炒蛋-22-08-27" },
+    { name: "青椒土豆片", path: "22-09-12.html" },
+    { name: "青椒土豆丝", path: "22-08-27.html" },
     { name: "清炒藕片", path: "", todo: true },
-    { name: "藕夹/藕盒", path: "#香酥藕夹、西红柿鸡蛋汤-22-11-05" },
+    { name: "藕夹/藕盒", path: "22-11-05.html" },
     { name: "-", path: "", desc: "鸡蛋类" },
-    { name: "大葱炒鸡蛋", path: "#大葱炒鸡蛋、大葱炒鸡胸肉-22-09-11" },
-    { name: "酱炒鸡蛋", path: "#酱炒鸡蛋-22-09-04" },
-    { name: "西红柿炒鸡蛋", path: "#豆瓣罗非鱼、清炒黄瓜、番茄炒蛋-22-09-03" },
-    { name: "丝瓜炒鸡蛋", path: "#青椒土豆丝、丝瓜炒蛋-22-08-27" },
-    { name: "青椒炒鸡蛋", path: "#青椒鸡腿、青椒炒鸡蛋-22-08-28" },
+    { name: "大葱炒鸡蛋", path: "22-09-11.html" },
+    { name: "酱炒鸡蛋", path: "22-09-04.html" },
+    { name: "西红柿炒鸡蛋", path: "22-09-03.html" },
+    { name: "丝瓜炒鸡蛋", path: "22-08-27.html" },
+    { name: "青椒炒鸡蛋", path: "22-08-28.html" },
     { name: "炸胡椒", path: "", todo: true }, // 湖北
   ],
 };
@@ -79,16 +79,16 @@ const vegetable = {
 const greenVegetable = {
   name: "绿叶蔬菜",
   list: [
-    { name: "酱圆白菜(包菜)", path: "#红烧鲫鱼、酱圆白菜-22-10-01" },
-    { name: "豆豉鲮鱼油麦菜", path: "#豆豉鲮鱼油麦菜、青椒土豆片-22-09-12" },
-    { name: "清炒小白菜", path: "#香煎鸡翅、清炒小白菜-22-09-04" },
-    { name: "蒜蓉上海青", path: "#香辣虾尾、蒜蓉上海青-22-10-02" },
-    { name: "韭黄炒蛋", path: "#姜葱炒鸡、韭黄炒蛋-22-10-04" },
-    { name: "清炒黄芽白菜", path: "#红烧鱼块、黄芽白菜-22-10-05" },
-    { name: "清炒空心菜", path: "#土豆烧排骨、清炒空心菜-22-10-22" },
-    { name: "清炒红苋菜", path: "#清蒸鲈鱼、清炒红苋菜-22-10-29" },
-    { name: "手撕包菜", path: "#小酥肉、手撕包菜-22-11-06" },
-    { name: "清炒红菜苔", path: "#莲藕排骨汤、清炒红菜苔-22-11-13" },
+    { name: "酱圆白菜(包菜)", path: "22-10-01.html" },
+    { name: "豆豉鲮鱼油麦菜", path: "22-09-12.html" },
+    { name: "清炒小白菜", path: "22-09-04-a.html" },
+    { name: "蒜蓉上海青", path: "22-10-02.html" },
+    { name: "韭黄炒蛋", path: "22-10-04.html" },
+    { name: "清炒黄芽白菜", path: "22-10-05.html" },
+    { name: "清炒空心菜", path: "22-10-22.html" },
+    { name: "清炒红苋菜", path: "22-10-29.html" },
+    { name: "手撕包菜", path: "22-11-06.html" },
+    { name: "清炒红菜苔", path: "22-11-13.html" },
     { name: "蚝油生菜", path: "", todo: true },
   ],
 };
@@ -96,10 +96,10 @@ const greenVegetable = {
 const whiteMeat = {
   name: "白肉",
   list: [
-    { name: "大葱炒鸡胸肉", path: "#大葱炒鸡蛋、大葱炒鸡胸肉-22-09-11" },
-    { name: "香煎鸡翅", path: "#香煎鸡翅、清炒小白菜-22-09-04" },
-    { name: "青椒炒鸡腿", path: "#青椒鸡腿、青椒炒鸡蛋-22-08-28" },
-    { name: "葱姜炒鸡", path: "#姜葱炒鸡、韭黄炒蛋-22-10-04" },
+    { name: "大葱炒鸡胸肉", path: "22-09-11.html" },
+    { name: "香煎鸡翅", path: "22-09-04-a.html" },
+    { name: "青椒炒鸡腿", path: "22-08-28.html" },
+    { name: "葱姜炒鸡", path: "22-10-04.html" },
     { name: "黄焖鸡", path: "", todo: true },
     { name: "可乐鸡翅", path: "", todo: true },
     { name: "葱油鸡", path: "", todo: true },
@@ -117,11 +117,11 @@ const whiteMeat = {
 const redMeat = {
   name: "红肉",
   list: [
-    { name: "青椒回锅肉", path: "#青椒回锅肉、尖椒豆腐皮-22-09-25" },
-    { name: "白菜猪肉炖粉条", path: "#白菜猪肉炖粉条、青椒炒青豆-22-09-17" },
-    { name: "青椒肉丝", path: "#葱烧豆腐、青椒肉丝-22-09-10" },
-    { name: "土豆烧排骨", path: "#土豆烧排骨、清炒空心菜-22-10-22" },
-    { name: "小酥肉", path: "#小酥肉、手撕包菜-22-11-06"},
+    { name: "青椒回锅肉", path: "22-09-25.html" },
+    { name: "白菜猪肉炖粉条", path: "22-09-17.html" },
+    { name: "青椒肉丝", path: "22-09-10.html" },
+    { name: "土豆烧排骨", path: "22-10-22.html" },
+    { name: "小酥肉", path: "22-11-06.html"},
     { name: "葱爆肉(大葱)", path: "", todo: true },
     { name: "蒜苗回锅肉", path: "", todo: true },
     { name: "蒜苔炒肉", path: "", todo: true },
@@ -137,16 +137,16 @@ const redMeat = {
 const fish = {
   name: "水产",
   list: [
-    { name: "红烧鲫鱼", path: "#红烧鲫鱼、酱圆白菜-22-10-01" },
-    { name: "豆瓣罗非鱼", path: "#豆瓣罗非鱼、清炒黄瓜、番茄炒蛋-22-09-03" },
-    { name: "香辣虾尾", path: "#香辣虾尾、蒜蓉上海青-22-10-02" },
-    { name: "白灼虾", path: "#白灼虾、鱼香-小炒茄子-22-10-03" },
-    { name: "红烧鱼块", path: "#红烧鱼块、黄芽白菜-22-10-05" },
-    { name: "清蒸鲈鱼", path: "#清蒸鲈鱼、清炒红苋菜-22-10-29" },
+    { name: "红烧鲫鱼", path: "22-10-01.html" },
+    { name: "豆瓣罗非鱼", path: "22-09-03.html" },
+    { name: "香辣虾尾", path: "22-10-02.html" },
+    { name: "白灼虾", path: "22-10-03.html" },
+    { name: "红烧鱼块", path: "22-10-05.html" },
+    { name: "清蒸鲈鱼", path: "22-10-29.html" },
+    { name: "红烧黄骨鱼", path: "22-12-04.html" },
     { name: "炒虾球", path: "", todo: true },
     { name: "红烧鲤鱼", path: "", todo: true },
     { name: "香煎刁子鱼", path: "", todo: true },
-    { name: "红烧黄骨鱼", path: "", todo: true },
     { name: "蒜香鲈鱼", path: "", todo: true },
     { name: "油焖大虾", path: "", todo: true },
     { name: "生炒田鸡", path: "", todo: true }, // https://www.bilibili.com/video/BV14Q4y1S7tZ
@@ -160,12 +160,12 @@ const fish = {
 const soup = {
   name: "汤",
   list: [
-    { name: "莲藕排骨汤", path: "#莲藕排骨汤、清炒红菜苔-22-11-13" },
+    { name: "莲藕排骨汤", path: "22-11-13.html" },
     { name: "鲫鱼豆腐汤", path: "", todo: true },
     { name: "-", path: "", desc: "素菜类" },
-    { name: "西红柿鸡蛋汤", path: "#香酥藕夹、西红柿鸡蛋汤-22-11-05" },
+    { name: "西红柿鸡蛋汤", path: "22-11-05.html" },
+    { name: "平菇鸡蛋汤", path: "22-12-04.html" },
     { name: "丝瓜鸡蛋汤", path: "", todo: true },
-    { name: "平菇鸡蛋汤", path: "", todo: true },
     { name: "紫菜蛋花汤", path: "", todo: true },
   ],
 };
@@ -173,7 +173,7 @@ const soup = {
 const coldDish = {
   name: "凉菜",
   list: [
-    { name: "凉拌鸡胸肉", path: "#凉拌鸡胸肉、家常豆腐-嫩-22-10-30" },
+    { name: "凉拌鸡胸肉", path: "22-10-30.html" },
     { name: "口水鸡", path: "", todo: true },
     { name: "手撕鸡", path: "", todo: true },
     { name: "白切鸡", path: "", todo: true }, // https://www.bilibili.com/video/BV1se4y1a7C5
@@ -208,6 +208,7 @@ const zheng = {
   list: [
     { name: "蒸菜(藜蒿)", path: "", todo: true },
     { name: "粉蒸肉", path: "", todo: true },
+    { name: "粉蒸鱼", path: "", todo: true },
     { name: "粉蒸藕块", path: "", todo: true },
     { name: "粉蒸土豆块", path: "", todo: true },
   ]
@@ -241,6 +242,11 @@ const menuList = [
 
 <style lang="scss" scoped>
 .ex-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px 40px;
   border: 1px solid #ccc;
   // border-radius: 8px;
   background: #fff;
