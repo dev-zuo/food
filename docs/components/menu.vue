@@ -161,7 +161,7 @@ const soup = {
   name: "汤",
   list: [
     { name: "莲藕排骨汤", path: "22-11-13.html" },
-    { name: "鲫鱼豆腐汤", path: "", todo: true },
+    { name: "鲫鱼豆腐汤", path: "23-02-18.html" },
     { name: "-", path: "", desc: "素菜类" },
     { name: "西红柿鸡蛋汤", path: "22-11-05.html" },
     { name: "平菇鸡蛋汤", path: "22-12-04.html" },
@@ -174,8 +174,8 @@ const coldDish = {
   name: "凉菜",
   list: [
     { name: "凉拌鸡胸肉", path: "22-10-30.html" },
+    { name: "手撕鸡", path: "23-02-18.html" },
     { name: "口水鸡", path: "", todo: true },
-    { name: "手撕鸡", path: "", todo: true },
     { name: "白切鸡", path: "", todo: true }, // https://www.bilibili.com/video/BV1se4y1a7C5
     { name: "鲜椒杏鲍菇", path: "", todo: true },
     { name: "拍黄瓜", path: "", todo: true },
@@ -206,11 +206,11 @@ const huoguo = {
 const zheng = {
   name: "蒸菜",
   list: [
-    { name: "蒸菜(藜蒿)", path: "", todo: true },
-    { name: "粉蒸肉", path: "", todo: true },
+    { name: "蒸菜(茼蒿)", path: "23-02-19.html" },
+    { name: "粉蒸肉", path: "23-02-19.html"},
     { name: "粉蒸鱼", path: "", todo: true },
     { name: "粉蒸藕块", path: "", todo: true },
-    { name: "粉蒸土豆块", path: "", todo: true },
+    { name: "粉蒸土豆块", path: "23-02-19.html" },
   ]
 }
 

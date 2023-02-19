@@ -14,6 +14,8 @@ export default {
         {
           text: '做饭日常',
           items: [
+            { text: '粉蒸肉、蒸菜(茼蒿、土豆)', link: '/daily/23-02-19' },
+            { text: '葱油手撕鸡、鲫鱼豆腐汤', link: '/daily/23-02-18' },
             { text: '红烧黄骨鱼、平菇鸡蛋汤', link: '/daily/22-12-04' },
             { text: '莲藕排骨汤、清炒红菜苔', link: '/daily/22-11-13' },
             { text: '小酥肉、手撕包菜', link: '/daily/22-11-06' },
