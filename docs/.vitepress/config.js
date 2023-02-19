@@ -6,7 +6,7 @@ export default {
     logo: '/logo.png',
     nav: [
       { text: '菜单食谱', link: '/' },
-      { text: '做饭日常', link: '/daily/22-12-04', activeMatch: '/daily/' },
+      { text: '做饭日常', link: '/daily/23-02-19', activeMatch: '/daily/' },
       { text: 'Github', link: 'https://github.com/zuoxiaobai/food' }
     ],
     sidebar: {
