@@ -6,7 +6,7 @@ export default {
     logo: '/logo.png',
     nav: [
       { text: '菜单食谱', link: '/' },
-      { text: '做饭日常', link: '/daily/23-02-19', activeMatch: '/daily/' },
+      { text: '做饭日常', link: '/daily/23-02-25', activeMatch: '/daily/' },
       { text: 'Github', link: 'https://github.com/zuoxiaobai/food' }
     ],
     sidebar: {
@@ -14,6 +14,7 @@ export default {
         {
           text: '做饭日常',
           items: [
+            { text: '粉蒸鱼、蒸藕、红烧鱼块', link: '/daily/23-02-25' },
             { text: '粉蒸肉、蒸菜(茼蒿、土豆)', link: '/daily/23-02-19' },
             { text: '葱油手撕鸡、鲫鱼豆腐汤', link: '/daily/23-02-18' },
             { text: '红烧黄骨鱼、平菇鸡蛋汤', link: '/daily/22-12-04' },

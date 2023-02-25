@@ -208,8 +208,8 @@ const zheng = {
   list: [
     { name: "蒸菜(茼蒿)", path: "23-02-19.html" },
     { name: "粉蒸肉", path: "23-02-19.html"},
-    { name: "粉蒸鱼", path: "", todo: true },
-    { name: "粉蒸藕块", path: "", todo: true },
+    { name: "粉蒸鱼", path: "23-02-25.html" },
+    { name: "粉蒸藕块", path: "23-02-25.html" },
     { name: "粉蒸土豆块", path: "23-02-19.html" },
   ]
 }
