@@ -50,10 +50,12 @@ interface CategoryInfo {
 const vegetable = {
   name: "素菜",
   list: [
-    { name: "青椒炒青豆", path: "22-09-17.html" },
+    { name: "青椒毛豆粒", path: "22-09-17.html" },
     { name: "清炒黄瓜", path: "22-09-03.html" },
     { name: "鱼香茄子", path: "22-10-03.html" },
+    { name: "莴笋炖肉", path: "23-02-26.html" },
     { name: "清炒冬瓜", path: "", todo: true },
+    { name: "炒青豆", path: "", todo: true },
     { name: "-", path: "豆制品" },
     { name: "尖椒豆腐皮", path: "22-09-25.html" },
     { name: "香干炒肉", path: "22-09-18.html" },
@@ -165,8 +167,8 @@ const soup = {
     { name: "-", path: "", desc: "素菜类" },
     { name: "西红柿鸡蛋汤", path: "22-11-05.html" },
     { name: "平菇鸡蛋汤", path: "22-12-04.html" },
+    { name: "紫菜蛋花汤", path: "23-02-26.html" },
     { name: "丝瓜鸡蛋汤", path: "", todo: true },
-    { name: "紫菜蛋花汤", path: "", todo: true },
   ],
 };
 
@@ -209,8 +211,9 @@ const zheng = {
     { name: "蒸菜(茼蒿)", path: "23-02-19.html" },
     { name: "粉蒸肉", path: "23-02-19.html"},
     { name: "粉蒸鱼", path: "23-02-25.html" },
-    { name: "粉蒸藕块", path: "23-02-25.html" },
     { name: "粉蒸土豆块", path: "23-02-19.html" },
+    { name: "粉蒸排骨", path: "", todo: true },
+    { name: "粉蒸藕块", path: "23-02-25.html" },
   ]
 }
 
